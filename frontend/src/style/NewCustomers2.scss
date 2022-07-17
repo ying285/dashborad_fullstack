@@ -1,0 +1,23 @@
+.newcustomers2 {
+  padding: 1.5rem;
+  height: 100%;
+  width: 100%;
+
+  &_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1.1rem;
+  }
+
+  &_title div {
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: #8884d8;
+    margin-right: 0.5rem;
+  }
+
+  &_title span {
+    color: #8884d8;
+  }
+}

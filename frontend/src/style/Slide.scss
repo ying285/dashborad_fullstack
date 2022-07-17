@@ -1,0 +1,147 @@
+
+
+
+
+.slide {
+   
+
+  &_link {
+    text-decoration: none;
+  }
+
+  &_item {
+    display: flex;
+    color: #fff;
+  }
+
+  // li:not(:first-child):hover {
+  //   background-color: darkorange;
+  //   padding: 0.5rem 1rem;
+  //   width: 13rem;
+  //   border-radius: 5px;
+  //   margin: -0.5rem -1rem;
+  //   color: black;
+  //   transition: all 0.2s;
+
+    // i {
+    //   color: black;
+    // }
+
+    // span {
+    //   color: black;
+    //   font-weight: bold;
+    // }
+ // }
+
+  &_logo {
+    text-align: center;
+    margin-top: 15%;
+    margin-left: -20%;
+
+    h2 {
+      font-family: "Permanent Marker", cursive;
+      color: darkorange;
+    }
+  }
+
+  &_list {
+    list-style: none;
+    display: flex;
+    margin-left: 10%;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 15%;
+    padding: 2rem 0;
+
+    span {
+      margin-left: 2rem;
+      font-size: 1.2rem;
+    }
+  }
+
+  i {
+    font-size: 1.2rem;
+  }
+
+  &_logout {
+    margin-left: 20%;
+    margin-top: 90%;
+    color: #fff;
+    font-weight: bold;
+
+    i {
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+  }
+
+  &_logout:hover {
+    color: darkorange;
+    
+    font-weight: bold;
+    
+    
+  }
+}
+
+.slide_layout {
+  height: 100vh;
+  width: 18vw;
+  position: fixed;
+  left: 0;
+  background-color: rgb(46, 45, 45);
+  border-radius: 0 5% 0 0;
+}
+
+.home{
+  position: relative;
+  
+ 
+ 
+  
+
+  &_mainpart{
+    margin-left: 20vw;
+    width: 75vw;
+   
+    
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .home{
+    &_mainpart{
+      margin-left: 5%;
+      width: 100%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.active{
+  
+    background-color: darkorange;
+    padding: 0.5rem 1rem;
+    width: 13rem;
+    border-radius: 5px;
+    margin: -1rem;
+
+    span {
+      color: black;
+      font-weight: bold;
+    }
+
+    i {
+      color: black;
+    }
+  
+}

@@ -1,0 +1,52 @@
+.orderspage {
+  &_header {
+    height: 10%;
+  }
+
+  &_info {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+  }
+
+  &_infoItem {
+    display: flex;
+    align-items: center;
+  }
+
+  &_chart {
+    background-color: rgb(46, 45, 45);
+    height: 35rem;
+    width: 70rem;
+    padding: 4rem;
+    padding-bottom: 5rem;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
+    margin-left: 10%;
+    h5 {
+      color: #fff;
+      text-align: center;
+    }
+  }
+
+  &_item {
+    width: 2rem;
+    height: 1rem;
+
+    margin-right: 1rem;
+    margin-left: 0.2rem;
+    border-radius: 5px;
+
+    &_1 {
+      background-color: red;
+    }
+
+    &_2 {
+      background-color: darkorange;
+    }
+
+    &_3 {
+      background-color: blue;
+    }
+  }
+}

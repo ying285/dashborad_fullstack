@@ -1,0 +1,34 @@
+.statistics {
+  
+  display: flex;
+  flex-direction: column;
+  
+
+   &_row1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    //height: 50%;
+     gap: 1rem;
+   }
+
+   &_row2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   // height: 50%;
+     gap: 1rem;
+   }
+  
+}
+
+@media only screen and (max-width: 790px) {
+  .statistics{
+     &_row1{
+      grid-template-columns: 1fr;
+     }
+
+     &_row2{
+      grid-template-columns: 1fr;
+      gap:0;
+     }
+  }
+}
